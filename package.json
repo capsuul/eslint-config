@@ -1,0 +1,40 @@
+{
+  "name": "@capsuul/eslint-config",
+  "version": "1.0.0",
+  "description": "A generic TypeScript eslint config (node.js and react/react-native)",
+  "keywords": [
+    "typescript",
+    "eslint",
+    "eslintconfig",
+    "nodejs",
+    "react",
+    "react-native"
+  ],
+  "author": "Louis SCHNEIDER <louis@schne.id>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capsuul/eslint-config.git"
+  },
+  "homepage": "https://github.com/capsuul/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/capsuul/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "@react-native-community/eslint-config": ">= 2",
+    "@typescript-eslint/eslint-plugin": ">= 3",
+    "eslint": ">= 7",
+    "eslint-config-airbnb-typescript": ">= 8",
+    "eslint-config-prettier": ">= 6",
+    "eslint-plugin-eslint-comments": ">= 3",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-jest": ">= 23",
+    "eslint-plugin-jsx-a11y": ">= 6",
+    "eslint-plugin-node": ">= 11",
+    "eslint-plugin-react": ">= 7",
+    "eslint-plugin-react-hooks": ">= 4",
+    "prettier": ">= 2",
+    "typescript": ">= 3"
+  }
+}
