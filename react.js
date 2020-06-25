@@ -8,6 +8,7 @@ module.exports = {
   plugins: [],
   extends: [
     './base.js',
+    'airbnb-typescript',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'prettier/react',
