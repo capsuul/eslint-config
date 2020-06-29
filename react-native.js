@@ -2,7 +2,10 @@ module.exports = {
   parserOptions: {},
   settings: {},
   plugins: [],
-  extends: ['./react.js', 'airbnb-typescript', '@react-native-community'],
-  rules: {},
+  extends: ['./react.js', '@react-native-community'],
+  rules: {
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/indent": "off"
+  },
   overrides: [],
 };

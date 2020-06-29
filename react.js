@@ -13,7 +13,10 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'prettier/react',
   ],
-  rules: {},
+  rules: {
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/indent": "off"
+  },
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
