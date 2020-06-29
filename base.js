@@ -33,6 +33,9 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/no-explicit-any": "off"
   },
   overrides: [
     {
