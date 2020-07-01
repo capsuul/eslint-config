@@ -20,7 +20,6 @@ module.exports = {
   ],
   rules: {
     'arrow-body-style': 'off',
-    'no-console': 'off',
     indent: 'off',
     'import/order': [
       'error',
