@@ -19,6 +19,8 @@ module.exports = {
     'prettier/standard',
   ],
   rules: {
+    'arrow-body-style': 'off',
+    'no-console': 'off',
     indent: 'off',
     'import/order': [
       'error',
