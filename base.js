@@ -19,6 +19,7 @@ module.exports = {
     'prettier/standard',
   ],
   rules: {
+    indent: 'off',
     'import/order': [
       'error',
       {
@@ -33,9 +34,10 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
-    "import/prefer-default-export": "off",
-    "@typescript-eslint/indent": "off",
-    "@typescript-eslint/no-explicit-any": "off"
+    'import/prefer-default-export': 'off',
+    'import/extensions': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/indent': 'off',
   },
   overrides: [
     {
