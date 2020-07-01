@@ -1,5 +1,7 @@
 module.exports = {
-  parserOptions: {},
+  parserOptions: {
+    sourceType: 'module',
+  },
   settings: {},
   plugins: [],
   extends: ['./base.js', 'plugin:node/recommended-module'],
