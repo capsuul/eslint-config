@@ -2,7 +2,7 @@ module.exports = {
   parserOptions: {},
   settings: {},
   plugins: [],
-  extends: ['./base.js', 'plugin:node/recommended'],
+  extends: ['./base.js', 'plugin:node/recommended-module'],
   rules: {},
   overrides: [],
-};
+}
