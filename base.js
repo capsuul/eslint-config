@@ -21,6 +21,11 @@ module.exports = {
   rules: {
     'arrow-body-style': 'off',
     indent: 'off',
+    'object-curly-newline': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'operator-linebreak': 'off',
+    'function-paren-newline': 'off',
+    'no-console': 'off',
     'import/order': [
       'error',
       {
@@ -35,6 +40,7 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'import/no-cycle': 'off',
     'import/prefer-default-export': 'off',
     'import/extensions': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
